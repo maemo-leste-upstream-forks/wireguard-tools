@@ -9,7 +9,7 @@ Build-Depends:
  systemd,
 Standards-Version: 4.5.0
 Homepage: https://www.wireguard.com
-Vcs-Git: https://salsa.debian.org/debian/wireguard.git
+Vcs-Git: https://salsa.debian.org/debian/wireguard.git -b debian/buster-backports
 Vcs-Browser: https://salsa.debian.org/debian/wireguard
 Rules-Requires-Root: no
 
