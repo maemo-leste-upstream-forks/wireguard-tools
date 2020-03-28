@@ -1,3 +1,9 @@
+wireguard (1.0.20200319-1~bpo10+1) buster-backports; urgency=medium
+
+  * Rebuild for buster-backports.
+
+ -- Daniel Kahn Gillmor <dkg@fifthhorseman.net>  Sat, 28 Mar 2020 08:15:04 -0400
+
 wireguard (1.0.20200319-1) unstable; urgency=medium
 
   [ Unit 193 ]
