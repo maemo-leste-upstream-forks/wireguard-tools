@@ -1,3 +1,35 @@
+wireguard (1.0.20200513-1) unstable; urgency=medium
+
+  * New upstream release.
+    - Drop upstream patch.
+  * d/control: Lower 'openresolv | resolvconf' to suggests.
+
+ -- Unit 193 <unit193@debian.org>  Fri, 15 May 2020 18:32:16 -0400
+
+wireguard (1.0.20200510-1) unstable; urgency=medium
+
+  [ Daniel Kahn Gillmor ]
+  * Add Unit193 to Uploaders
+  * wrap-and-sort -ast
+  * prefer wireguard-modules (from a kernel package) over wireguard-dkms
+  * keygen test only needs wireguard-tools package, not wireguard metapackage
+
+  [ Jason A. Donenfeld ]
+  * debian: tests: replace ncat-client with keygen
+  * debian: control: set Recommends order same as Depends order
+
+  [ Unit 193 ]
+  * New upstream release.
+    - Refresh patch.
+    - Grab an upstream commit to install wg-quick.target.
+  * d/control:
+    - Update my email address.
+    - Recommend openresolv | resolvconf. (Closes: #930735)
+  * d/copyright: Update attribution.
+  * d/wireguard-tools.lintian-overrides: Drop override about .gitignore.
+
+ -- Unit 193 <unit193@debian.org>  Tue, 12 May 2020 01:33:42 -0400
+
 wireguard (1.0.20200319-1~bpo10+1) buster-backports; urgency=medium
 
   * Rebuild for buster-backports.
