@@ -1,3 +1,9 @@
+wireguard (1.0.20200827-1~bpo10+1) buster-backports; urgency=medium
+
+  * Rebuild for buster-backports.
+
+ -- Unit 193 <unit193@debian.org>  Tue, 15 Sep 2020 19:33:53 -0400
+
 wireguard (1.0.20200827-1) unstable; urgency=medium
 
   * New upstream release.
